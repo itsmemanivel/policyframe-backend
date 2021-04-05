@@ -115,6 +115,13 @@ app.use('/graphql', graphqlHTTP({
   res.end();
 });
 
+
+server.express.get('/', (req, res, next) =>{
+
+  res.send("policyframe-API-restricted-area");
+
+});
+
 //port
 server.start(options, ({ port }) => {
   console.log(`🚀 Server is running on http://localhost:${port}`)
