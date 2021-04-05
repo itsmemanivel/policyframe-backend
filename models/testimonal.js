@@ -37,3 +37,6 @@ const TestimonalSchema = mongoose.Schema({
 
 
 const Testimonal = module.exports = mongoose.model('testimonals',TestimonalSchema)
+
+
+export default  Testimonal;

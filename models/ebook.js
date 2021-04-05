@@ -56,3 +56,4 @@ const EbookSchema = mongoose.Schema({
 
 const Ebook = module.exports = mongoose.model('ebooks',EbookSchema)
 
+export default  Ebook;

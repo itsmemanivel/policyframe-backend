@@ -52,3 +52,5 @@ const PptSchema = mongoose.Schema({
 
 
 const Ppt = module.exports = mongoose.model('ppts',PptSchema)
+
+export default  Ppt;

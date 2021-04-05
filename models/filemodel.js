@@ -28,3 +28,5 @@ const fileSchema =  mongoose.Schema({
   });
   
   const fileupload = module.exports = mongoose.model("File", fileSchema);
+
+  export default  fileupload;

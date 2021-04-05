@@ -52,3 +52,5 @@ const EmbedVideoSchema = mongoose.Schema({
 
 const EmbedVideo = module.exports = mongoose.model('embed-videos',EmbedVideoSchema)
 
+
+export default  EmbedVideo;
